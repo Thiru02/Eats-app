@@ -53,7 +53,7 @@ const Nav = () => {
       {menuOpen && (
         <div className="fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300">
           <div
-            className="absolute right-4 top-4 cursor-pointer"
+            className="absolute right-4 top-4 hover:cursor-pointer hover:bg-black hover:text-white"
             onClick={() => setMenuOpen(false)}
           >
             <AiOutlineClose size={30} />
@@ -62,26 +62,26 @@ const Nav = () => {
           <div className="text-2xl p-4">
             Best <span className="font-bold">Eats</span>
           </div>
-          <ul className="flex flex-col p-4 text-gray-800">
-            <li className="text-xl py-4 flex">
+          <ul className="flex flex-col p-4 text-gray-800 hover:cursor-pointer">
+            <li className="text-xl py-4 flex hover:bg-black hover:text-white">
               <TbTruckDelivery size={25} className="mr-4" /> Orders
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:bg-black hover:text-white">
               <MdFavorite size={25} className="mr-4" /> Favorites
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:bg-black hover:text-white">
               <FaWallet size={25} className="mr-4" /> Wallet
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:bg-black hover:text-white">
               <MdHelp size={25} className="mr-4" /> Help
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:bg-black hover:text-white">
               <AiFillTag size={25} className="mr-4" /> Promotions
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:bg-black hover:text-white">
               <BsFillSaveFill size={25} className="mr-4" /> Best Ones
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:bg-black hover:text-white">
               <FaUserFriends size={25} className="mr-4" /> Invite Friends
             </li>
           </ul>
