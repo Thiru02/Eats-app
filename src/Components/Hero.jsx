@@ -20,6 +20,7 @@ const Hero = () => {
           alt="/"
         />
       </div>
+      <>add</>
     </div>
   );
 };
